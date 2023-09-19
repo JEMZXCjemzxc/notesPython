@@ -1,0 +1,47 @@
+# ---------------------- TUPLE ----------------------------------#
+
+# tupled = ("apple","orange","pears")
+# x = list(tupled) #convert to list first
+# add = input("Add a fruit: ") #user input
+# x.append(add) #gi append or addan ug new fruit
+# tupled = tuple(x) # gi sudlan
+# print(tupled)
+
+# tupled = ("apple","orange","pears")
+# add = list(tupled)
+# add.insert(1,"guava")   ##Add Item
+# tupled =tuple(add)
+# print(tupled)
+
+# update = list(tupled)
+# update[1] = "guava"     ## Update item
+# tupled = tuple(update)
+# print(tupled)
+
+# tupled = ("apple","orange","pears")
+# add = ("orange",)
+# tupled += add           ## murag append
+# print(tupled)
+
+# tupled = ("apple","orange","pears")
+# convert = list(tupled)
+# convert.remove("pears")
+# tupled = tuple(convert)
+# print(tupled)
+
+# tupled = ("apple","orange","pears","guava","banana")
+# for i in range(1,3):
+#     print(tupled[i])
+
+# tupled = ("apple","orange","pears","guava","banana")
+# for i in range(len(tupled)):
+#     print(tupled[i])
+
+#
+# mobileGame = ("ML","pubg")
+# pcGame = ("Dota","Valorant")
+# print(mobileGame+pcGame)
+
+fruits =("apple","mango")
+x = fruits*3
+print(x)
